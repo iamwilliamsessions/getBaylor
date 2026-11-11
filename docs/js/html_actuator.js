@@ -8,42 +8,31 @@ function HTMLActuator() {
 }
 
 HTMLActuator.prototype.schoolNames = {
-  2: "Arizona",
-  4: "Arizona State",
-  8: "BYU",
-  16: "TCU",
-  32: "Colorado",
-  64: "Houston",
+  2: "TCU",
+  4: "Texas Tech",
+  8: "Arizona",
+  16: "Arizona State",
+  32: "Kansas",
+  64: "UCF",
   128: "Iowa State",
-  256: "Kansas",
-  512: "Kansas State",
-  1024: "Oklahoma State",
-  2048: "Baylor",
-  4096: "Cincinnati",
-  8192: "Texas Tech",
-  16384: "UCF",
-  32768: "Utah",
-  65536: "West Virginia",
-  131072: "Big 12"
+  256: "Utah",
+  512: "Colorado",
+  1024: "BYU",
+  2048: "Baylor"
 };
 
 HTMLActuator.prototype.schoolLogos = {
-  2: "img/big12-arizona.png",
-  4: "img/big12-arizona-state.png",
-  8: "img/big12-byu.png",
-  16: "img/big12-tcu.png",
-  32: "img/big12-colorado.png",
-  64: "img/big12-houston.png",
+  2: "img/big12-tcu.png",
+  4: "img/big12-texas-tech.png",
+  8: "img/big12-arizona.png",
+  16: "img/big12-arizona-state.png",
+  32: "img/big12-kansas.png",
+  64: "img/big12-ucf.png",
   128: "img/big12-iowa-state.png",
-  256: "img/big12-kansas.png",
-  512: "img/big12-kansas-state.png",
-  1024: "img/big12-oklahoma-state.png",
-  2048: "img/big12-baylor.png",
-  4096: "img/big12-cincinnati.png",
-  8192: "img/big12-texas-tech.png",
-  16384: "img/big12-ucf.png",
-  32768: "img/big12-utah.png",
-  65536: "img/big12-west-virginia.png"
+  256: "img/big12-utah.png",
+  512: "img/big12-colorado.png",
+  1024: "img/big12-byu.png",
+  2048: "img/big12-baylor.png"
 };
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
