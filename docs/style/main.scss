@@ -24,12 +24,14 @@ html, body {
   margin: 0;
   padding: 0;
 
-  background: url('../img/big12-campus.png');
-  background-attachment: fixed;
-  background-size: cover;
+  background: #fff;
   color: $text-color;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
+}
+
+html {
+  border-top: 10px solid #154734;
 }
 
 body {
